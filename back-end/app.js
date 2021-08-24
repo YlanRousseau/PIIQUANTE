@@ -1,9 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const path = require('path');
 
 const userRoutes = require('./routes/user');
+const sauceRoutes = require('./routes/sauce');
+
 
 mongoose.connect('mongodb+srv://Ylan:VOAaupFr51zKFeyR@cluster0.cwcrz.mongodb.net/test?retryWrites=true&w=majority', {
+        useCreateIndex: true,
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
@@ -20,5 +24,9 @@ app.use((req, res, next) => {
 });
 
 app.use(express.json());
+
+app.use('/images', express.static(path.join(__dirname, 'images')));
+
 app.use('/api/auth', userRoutes);
+app.use('/api/sauces', sauceRoutes);
 module.exports = app;
