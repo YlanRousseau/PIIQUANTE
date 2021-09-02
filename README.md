@@ -24,3 +24,6 @@ Si vous utilisez VSCode, utilisez l'extension LiveShare pour faire fonctionner l
 serveur front-end sans avoir recours à npm install.
 
 Utilisez Ctrl+Cdans le terminal pour arrêter le serveur local.
+
+
+Deux compte son disponible : (totodu25@hotmail.fr,azerty) et (y-lan-78@hotmail.fr,azerty).
