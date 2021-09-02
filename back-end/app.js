@@ -1,12 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
+require('dotenv').config();
 
 const userRoutes = require('./routes/user');
 const sauceRoutes = require('./routes/sauce');
 
 
-mongoose.connect('mongodb+srv://Ylan:VOAaupFr51zKFeyR@cluster0.cwcrz.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect(process.env.DB, {
         useCreateIndex: true,
         useNewUrlParser: true,
         useUnifiedTopology: true

@@ -1,23 +1,22 @@
-# HOT TAKES #
+# PIIQUANTE #
 
 ## Installation ##
 
-Here are the dependancies you need to install:
+Voici les dépendances que vous devez installer :
 - NodeJS 12.14 or 14.0.
-- Angular CLI 7.0.2.
-- node-sass : make sure to use the corresponding version to NodeJS. For Noe 14.0 for instance, you need node-sass in version 4.14+.
+- node-sass : assurez-vous d'utiliser la version correspondante à NodeJS. Pour Noe 14.0 par exemple, vous avez besoin de node-sass dans la version 4.14+.
 
-On Windows, these installations require to use PowerShell in administrator mode.
+Sous Windows, ces installations nécessitent d'utiliser PowerShell en mode administrateur.
 
-The, clone this repo and run `npm install`.
+clonez ce référentiel et exécutez npm install.
 
 
 ## Usage ##
 
-Run `npm start`. This should both run the local server and launch your browser.
+Lancer npm start. Cela devrait à la fois exécuter le serveur local et lancer votre navigateur.
 
-If your browser fails to launch, or shows a 404 error, navigate your browser to http://localhost:8080.
+Si votre navigateur ne démarre pas ou affiche une erreur 404, accédez à votre navigateur vers http://localhost:8080
 
-The app should reload automatically when you make a change to a file.
+L'application devrait se recharger automatiquement lorsque vous modifiez un fichier.
 
-Use `Ctrl+C` in the terminal to stop the local server.
+Utilisez Ctrl+Cdans le terminal pour arrêter le serveur local.
