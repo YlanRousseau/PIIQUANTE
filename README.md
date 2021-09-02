@@ -19,4 +19,8 @@ Si votre navigateur ne démarre pas ou affiche une erreur 404, accédez à votre
 
 L'application devrait se recharger automatiquement lorsque vous modifiez un fichier.
 
+Si vous utilisez VSCode, utilisez l'extension LiveShare pour faire fonctionner le
+
+serveur front-end sans avoir recours à npm install.
+
 Utilisez Ctrl+Cdans le terminal pour arrêter le serveur local.
